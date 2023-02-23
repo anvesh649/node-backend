@@ -3,6 +3,7 @@ import bunyan from 'bunyan';
 
 dotenv.config({});
 
+
 class Config {
   public DATABASE_URL: string | undefined;
   public JWT_TOKEN: string | undefined;
