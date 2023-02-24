@@ -3,7 +3,6 @@ import bunyan from 'bunyan';
 
 dotenv.config({});
 
-
 class Config {
   public DATABASE_URL: string | undefined;
   public JWT_TOKEN: string | undefined;
@@ -12,7 +11,6 @@ class Config {
   public SECRET_KEY_TWO: string | undefined;
   public CLIENT_URL: string | undefined;
   public REDIS_HOST: string | undefined;
-
 
   private readonly DEFAULT_DATABASE_URL = 'mongodb://127.0.0.1:27017/chattyapp-backend';
 
